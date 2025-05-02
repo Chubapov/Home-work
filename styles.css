@@ -1,0 +1,25 @@
+:root{
+
+}
+
+.text {
+    color: #FFFFFF;
+background: #2F303A;
+height: 100px;
+}
+
+.button {
+    background: #61b7ff;
+}
+
+.our-team {
+background-color: #F5F4FA;
+}
+
+.footer{
+    background-color: #42434d;
+    color: #ffffff;
+}
+a.footer-link {
+    color: #979292;
+}
