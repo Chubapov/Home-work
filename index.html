@@ -3,15 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&family=Roboto:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>My Web Page</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
-    <header>
-      <a href="/">WebStudio</a>
+  <body class="body">
+    <header class="header">
+      <a href="/" class="header-logo">WebStudio</a>
       <nav>
         <ul>
-          <li><a href="WebStudio.html">Студія</a></li>
+          <li><a href="index.html">Студія</a></li>
           <li><a href="Portfolio.html">Портфоліо</a></li>
           <li><a href="/">Контакти</a></li>
         </ul>
@@ -20,35 +26,35 @@
       <a href="">+38 096 111 11 11</a>
     </header>
     <main>
-      <section>
-        <h1 class="text">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-        <button type="button" class="button">Замовити послуги</button>
+      <section class="subject">
+        <h1 class="subtitel">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
+        <button type="button" class="subtitel-button">Замовити послуги</button>
       </section>
       <div>
-        <ul>
+        <ul class="desc">
           <li>
-            <b>УВАГА ДО ДЕТАЛЕЙ</b>
-            <p>
+            <h2 class="desc-subtitel">УВАГА ДО ДЕТАЛЕЙ</h2>
+            <p classes="desc-subtext">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
           <li>
-            <b>ПУНКТУАЛЬНІСТЬ</b>
-            <p>
+            <h2 class="desc-subtitel">ПУНКТУАЛЬНІСТЬ</h2>
+            <p classes="desc-subtext">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
           <li>
-            <b>ПЛАНУВАННЯ</b>
-            <p>
+            <h2 class="desc-subtitel">ПЛАНУВАННЯ</h2>
+            <p classes="desc-subtext">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
           <li>
-            <b>СУЧАСНІ ТЕХНОЛОГІЇ</b>
-            <p>
+            <h2 class="desc-subtitel">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
+            <p classes="desc-subtext">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
             </p>
@@ -56,39 +62,39 @@
         </ul>
       </div>
       <section>
-        <h2>Чим ми займаємося</h2>
+        <h2 class="social-icon">Чим ми займаємося</h2>
         <img src="img/loptop.jpg.png" alt="first" />
         <img src="img/iphone.jpg.png" alt="second" />
         <img src="img/mouse.jpg.png" alt="third" />
       </section>
-      <section class="our-team">
-        <h3>Наша команда</h3>
+      <section class="team">
+        <h3 class="our-team">Наша команда</h3>
         <ul>
           <li>
             <img src="img/man.jpg.jpg" alt="first" />
-            <h4>Ігор Дем'яненко</h4>
-            <p>Product Designer</p>
+            <h4 class="name">Ігор Дем'яненко</h4>
+            <p class="jobs">Product Designer</p>
           </li>
           <li>
             <img src="img/woman.jpg" alt="second" />
-            <h4>Ольга Рєпіна</h4>
-            <p>Frontend Developer</p>
+            <h4 class="name">Ольга Рєпіна</h4>
+            <p class="jobs">Frontend Developer</p>
           </li>
           <li>
             <img src="img/man1.jpg" alt="third" />
-            <h4>Микола Тарасов</h4>
-            <p>Marketing</p>
+            <h4 class="name">Микола Тарасов</h4>
+            <p class="jobs">Marketing</p>
           </li>
           <li>
             <img src="img/man2.jpg" alt="fourth" />
-            <h4>Михайло Єрмаков</h4>
-            <p>UI Designer</p>
+            <h4 class="name">Михайло Єрмаков</h4>
+            <p class="jobs">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <footer class="footer">
-      <a href="/">WebStudio</a>
+      <a href="/" class="footer-logo">WebStudio</a>
       <p>м. Київ, пр-т Лесі Українки, 26</p>
       <a href="mailto:info@devstudio.com" class="footer-link"
         >info@devstudio.com</a

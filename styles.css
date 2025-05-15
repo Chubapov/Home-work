@@ -1,25 +1,94 @@
 :root{
-
+--color-logo: #2196F3;
+--color-logo: #000000;
+--color-logo: #FFFFFF;
+--color-titel: #212121;
+--color-text: #757575;
+--color-background: #F5F4FA;
+--color-background-dark: #2F303A;
 }
-
-.text {
+.subject {
+    background: #2F303A;
+    height: 100px;
+}
+.subtitel {
     color: #FFFFFF;
-background: #2F303A;
-height: 100px;
+    font-size: 44px;
+        font-weight: 900;
 }
 
-.button {
-    background: #61b7ff;
+.subtitel-button {
+    background: #2196F3;
+    font-size: 16px;
+        font-weight: 700;
 }
 
 .our-team {
 background-color: #F5F4FA;
+font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
 }
 
 .footer{
-    background-color: #42434d;
+    background-color:#757575;
     color: #ffffff;
 }
-a.footer-link {
-    color: #979292;
+
+body {
+ font-family: Roboto;
+    font-size: 14px;
+}
+a.header-logo {
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+}
+a.footer-logo {
+font-family: Raleway;
+}
+
+.header {
+    font-size: 14px;
+    font-weight:500;
+}
+.desc-subtitel {
+    font-size: 14px;
+    font-weight: 700;
+}
+.desc-subtext {
+    font-size: 14px;
+    font-weight: 500;
+}
+.social-icon {
+    font-size: 36px;
+        font-style: normal;
+        font-weight:700;
+}
+.name {
+    font-size: 16px;
+        font-weight: 500;
+}
+.jobs {
+    font-size: 16px;
+        font-weight: 400;
+}
+.search-button {
+    font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+}
+.list-subtitel {
+    font-size: 18px;
+        font-style: normal;
+        font-weight:700;
+}
+.list-subtext {
+    font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+}
+.footer {
+    font-size: 14px;
+    font-weight: 500;
 }
