@@ -11,16 +11,17 @@
     background: #2F303A;
     height: 100px;
 }
-.subtitel {
+.subject-subtitel {
     color: #FFFFFF;
     font-size: 44px;
         font-weight: 900;
 }
 
-.subtitel-button {
+.subject-subtitel-button {
     background: #2196F3;
     font-size: 16px;
         font-weight: 700;
+        line-height: 187.5%;
 }
 
 .our-team {
@@ -38,6 +39,7 @@ font-size: 36px;
 body {
  font-family: Roboto;
     font-size: 14px;
+    line-height: normal;
 }
 a.header-logo {
 font-family: Raleway;
@@ -52,24 +54,25 @@ font-family: Raleway;
     font-size: 14px;
     font-weight:500;
 }
-.desc-subtitel {
+.list-desc-subtitel {
     font-size: 14px;
     font-weight: 700;
 }
-.desc-subtext {
+.list-desc-subtext {
     font-size: 14px;
     font-weight: 500;
+    line-height: 171.429%;
 }
-.social-icon {
+.section-social-icon {
     font-size: 36px;
         font-style: normal;
         font-weight:700;
 }
-.name {
+.team-list-name {
     font-size: 16px;
         font-weight: 500;
 }
-.jobs {
+.team-list-jobs {
     font-size: 16px;
         font-weight: 400;
 }
@@ -78,17 +81,26 @@ font-family: Raleway;
         font-style: normal;
         font-weight: 500;
 }
-.list-subtitel {
+.section-subtitel {
     font-size: 18px;
         font-style: normal;
         font-weight:700;
+        line-height: 200%;
 }
-.list-subtext {
+.section-subtext {
     font-size: 16px;
         font-style: normal;
         font-weight: 400;
+        line-height: 187.5%;
 }
 .footer {
     font-size: 14px;
     font-weight: 500;
+    line-height: 171.429%;
+}
+.main-item {
+    font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 162.5%;
 }
