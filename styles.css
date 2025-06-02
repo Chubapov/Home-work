@@ -168,3 +168,9 @@ font-family: Raleway;
         font-weight: 500;
         line-height: 162.5%;
 }
+
+*,
+*::after
+*::before {
+    box-sizing: border-box;
+}
