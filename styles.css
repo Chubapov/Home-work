@@ -71,7 +71,7 @@ body {
     font-family: "Jost";
 }
 
-.subject {
+.subject-container {
     background: #2F303A;
     height: 100px;
 }
@@ -93,6 +93,7 @@ background-color: #F5F4FA;
 font-size: 36px;
     font-style: normal;
     font-weight: 700;
+    margin-bottom: 50px;
 }
 
 .footer{
@@ -114,7 +115,7 @@ a.footer-logo {
 font-family: Raleway;
 }
 
-.header {
+.header{
     font-size: 14px;
     font-weight:500;
 }
@@ -131,6 +132,7 @@ font-family: Raleway;
     font-size: 36px;
         font-style: normal;
         font-weight:700;
+        margin-bottom: 50px;
 }
 .team-list-name {
     font-size: 16px;
@@ -173,4 +175,16 @@ font-family: Raleway;
 *::after
 *::before {
     box-sizing: border-box;
+}
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.logo-container {
+    height: 80px;
+    margin: 25px 0;
+}
+.div-container {
+margin: 94px 0;
 }
