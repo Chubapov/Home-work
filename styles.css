@@ -72,29 +72,37 @@ body {
 }
 
 .subject-container {
-    background: #2F303A;
-    height: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 600px;
+    display: flex;
+    background-color: #2f303a;
 }
 .subject-subtitel {
-    color: #FFFFFF;
+     margin-bottom: 30px;
+    color: #ffffff;
     font-size: 44px;
-        font-weight: 900;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.36;
+    letter-spacing: 2.64px;
 }
 
 .subject-subtitel-button {
-    background: #2196F3;
+    color: #ffffff;
     font-size: 16px;
-        font-weight: 700;
-        line-height: 187.5%;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 1.875;
+    letter-spacing: 0.96px;
+    margin: 0 auto;
+    border-color: transparent;
+    border-radius: 4px;
+    background-color: #2196f3;
+    padding: 10px 32px 10px 32px;
 }
 
-.our-team {
-background-color: #F5F4FA;
-font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    margin-bottom: 50px;
-}
 
 .footer{
     background-color:#757575;
@@ -116,42 +124,40 @@ font-family: Raleway;
 }
 
 .header{
-    font-size: 14px;
-    font-weight:500;
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 24px 0px 25px 0px;
+        border-bottom: 1px solid #ccc;
 }
-.list-desc-subtitel {
+.main-subtitel {
+    color: #000000;
     font-size: 14px;
     font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.42px;
 }
-.list-desc-subtext {
+.main-subtext {
+    color: #757575;
     font-size: 14px;
-    font-weight: 500;
-    line-height: 171.429%;
+    font-weight: 400;
+    line-height: 1.714;
+    letter-spacing: 0.42px;
 }
-.section-social-icon {
-    font-size: 36px;
-        font-style: normal;
-        font-weight:700;
-        margin-bottom: 50px;
-}
-.team-list-name {
-    font-size: 16px;
-        font-weight: 500;
-}
-.team-list-jobs {
-    font-size: 16px;
-        font-weight: 400;
-}
+
 .search-button {
     font-size: 16px;
         font-style: normal;
         font-weight: 500;
 }
 .section-subtitel {
-    font-size: 18px;
-        font-style: normal;
-        font-weight:700;
-        line-height: 200%;
+margin-bottom: 30px;
+    color: var(--text-color3);
+    font-size: 44px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.36;
+    letter-spacing: 2.64px;
 }
 .section-subtext {
     font-size: 16px;
@@ -159,11 +165,14 @@ font-family: Raleway;
         font-weight: 400;
         line-height: 187.5%;
 }
+
 .footer {
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 171.429%;
+display: flex;
+    flex-direction: column;
+    background-color: #2f303a;
+    height: 252px;
 }
+
 .main-item {
     font-size: 16px;
         font-style: normal;
@@ -177,14 +186,172 @@ font-family: Raleway;
     box-sizing: border-box;
 }
 .container{
-    max-width: 1600px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-.logo-container {
-    height: 80px;
-    margin: 25px 0;
+    width: 1200px;
+        margin: 0 auto;
+        padding-left: 12px;
+        padding-right: 12px;
 }
 .div-container {
 margin: 94px 0;
+}
+.nav {
+    margin-right: 344px;
+}
+.header-list {
+    column-gap: 50px;
+        display: flex;
+        list-style: none;
+}
+.Web {
+    color: #2196f3;
+    font-size: 26px;
+    font-family: Raleway;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+}
+.Studio {
+    color: #000000;
+    font-size: 26px;
+    font-family: Raleway;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+}
+.header-item {
+    color: #212121;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+}
+.contacts {
+    column-gap: 50px;
+    display: flex;
+}
+.contacts-item {
+    color: #212121;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+}
+.div-container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.main-list {
+    display: flex;
+    list-style-type: none;
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+.leisure {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.leisure-social-icon {
+    color: #000000;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+}
+.leisure-img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+.leisure-list {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    margin-top: 50px;
+}
+.our-team {
+    color: #000000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    margin-top: 94px;
+    margin-bottom: 50px;
+}
+.team-list {
+    text-align: center;
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+.team-item {
+    background-color: #FFFFFF;
+    width: 270px;
+    height: 368px;
+}
+.team {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 648px;
+    background-color: #f5f4fa;
+    margin-top: 94px;
+}
+.team-list-title {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.48px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.team-list-item{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.48px;
+}
+.Studio-footer {
+    color: #FFFFFF;
+    font-size: 26px;
+    font-family: Raleway;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+}
+.Web-footer {
+    color: #2196f3;
+    font-size: 26px;
+    font-family: Raleway;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+    margin-top: 60px;
+}
+.footer-logo{
+    padding-top: 60px;
+}
+.address {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    row-gap: 9px;
+    color: #ffffff99;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.714;
+    letter-spacing: 0.42px;
+}
+.footer-adres {
+    color: #ffffffff;
+}
+.footer-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.714;
+    letter-spacing: 0.42px;
+    color: #ffffff99;
 }
