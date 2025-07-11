@@ -455,3 +455,28 @@ button:hover {
 a:hover {
     color: #2196f3;
 }
+.antenna::before {
+    background-image: url(img/antenna.jpg);
+}
+.clock::before {
+    background-image: url(img/clock.jpg);
+}
+.diagram::before {
+    background-image: url(img/diagram.jpg);
+}
+.astronaut::before {
+    background-image: url(img/astronaut.jpg);
+}
+.list::before {
+    content: "";
+    display: block;
+     width: 270px;
+     height: 120px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background-color: #f5f4fa;
+     background-repeat: no-repeat;
+     background-size: auto;
+     background-position: center;
+    margin-bottom: 30px;
+}
