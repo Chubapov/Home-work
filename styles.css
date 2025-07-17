@@ -72,6 +72,9 @@ body {
 }
 
 .subject-container {
+    background-image: linear-gradient(to right, #2F303A66, #2F303A66), url(img/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     justify-content: center;
     align-items: center;
     text-align: center;
